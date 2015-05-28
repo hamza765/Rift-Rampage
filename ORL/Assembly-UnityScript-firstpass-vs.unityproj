@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+	<Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+	<Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+	<ProductVersion>10.0.20506</ProductVersion>
+	<SchemaVersion>2.0</SchemaVersion>
+	<ProjectGuid>{C9DACAAA-F543-BDF7-61D4-5609D57CABBF}</ProjectGuid>
+	<OutputType>Library</OutputType>
+	<AppDesignerFolder>Properties</AppDesignerFolder>
+	<RootNamespace></RootNamespace>
+	<AssemblyName>Assembly-UnityScript-firstpass</AssemblyName>
+	<TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+	<FileAlignment>512</FileAlignment>
+	<BaseDirectory>Assets</BaseDirectory>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+	<DebugSymbols>true</DebugSymbols>
+	<DebugType>full</DebugType>
+	<Optimize>false</Optimize>
+	<OutputPath>Temp\bin\Debug\</OutputPath>
+	<DefineConstants>DEBUG;TRACE;UNITY_5_0_1;UNITY_5_0;UNITY_5;UNITY_64;ENABLE_LICENSE_RENAME;ENABLE_NEW_BUGREPORTER;ENABLE_2D_PHYSICS;ENABLE_4_6_FEATURES;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_DUCK_TYPING;ENABLE_FRAME_DEBUGGER;ENABLE_GENERICS;ENABLE_HOME_SCREEN;ENABLE_IMAGEEFFECTS;ENABLE_LIGHT_PROBES_LEGACY;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_NEW_HIERARCHY;ENABLE_PHYSICS;ENABLE_PHYSICS_PHYSX3;ENABLE_PLUGIN_INSPECTOR;ENABLE_SHADOWS;ENABLE_SINGLE_INSTANCE_BUILD_SETTING;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_UNITYEVENTS;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_AUDIOMIXER_SUSPEND;ENABLE_NONPRO;INCLUDE_DYNAMIC_GI;INCLUDE_GI;INCLUDE_IL2CPP;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;UNITY_STANDALONE_WIN;UNITY_STANDALONE;ENABLE_SUBSTANCE;ENABLE_TEXTUREID_MAP;ENABLE_RUNTIME_GI;ENABLE_MOVIES;ENABLE_NETWORK;ENABLE_MONO;ENABLE_PROFILER;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN</DefineConstants>
+	<ErrorReport>prompt</ErrorReport>
+	<WarningLevel>4</WarningLevel>
+	<NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+	<DebugType>pdbonly</DebugType>
+	<Optimize>true</Optimize>
+	<OutputPath>Temp\bin\Release\</OutputPath>
+	<DefineConstants>TRACE</DefineConstants>
+	<ErrorReport>prompt</ErrorReport>
+	<WarningLevel>4</WarningLevel>
+	<NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+	<Reference Include="System" />
+    <Reference Include="System.XML" />
+	<Reference Include="System.Core" />
+	<Reference Include="System.Xml.Linq" />
+	<Reference Include="UnityEngine">
+	  <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine.dll</HintPath>
+	</Reference>
+	<Reference Include="UnityEditor">
+	  <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEditor.dll</HintPath>
+	</Reference>
+  </ItemGroup>
+  <ItemGroup>
+     <Compile Include="Assets\Plugins\DB Upgrades_Store\Store\Scripts\DBStoreController.js" />
+     <Compile Include="Assets\Plugins\DB Upgrades_Store\Store\Scripts\DBStoreGUI.js" />
+     <Compile Include="Assets\Plugins\DB Upgrades_Store\Store\Scripts\SlotInfo.js" />
+     <Compile Include="Assets\Plugins\DB Upgrades_Store\Store\Scripts\WeaponClassIcons.js" />
+     <Compile Include="Assets\Plugins\DB Upgrades_Store\Upgrades\Components\Animation\EmptyReloadAnim.js" />
+     <Compile Include="Assets\Plugins\DB Upgrades_Store\Upgrades\Components\Animation\FireAnim.js" />
+     <Compile Include="Assets\Plugins\DB Upgrades_Store\Upgrades\Components\Animation\NullAnim.js" />
+     <Compile Include="Assets\Plugins\DB Upgrades_Store\Upgrades\Components\Animation\PlayAnim.js" />
+     <Compile Include="Assets\Plugins\DB Upgrades_Store\Upgrades\Components\Animation\ReloadAnim.js" />
+     <Compile Include="Assets\Plugins\DB Upgrades_Store\Upgrades\Components\Animation\ReloadInAnim.js" />
+     <Compile Include="Assets\Plugins\DB Upgrades_Store\Upgrades\Components\Animation\ReloadOutAnim.js" />
+     <Compile Include="Assets\Plugins\DB Upgrades_Store\Upgrades\Components\Animation\SecondaryFireAnim.js" />
+     <Compile Include="Assets\Plugins\DB Upgrades_Store\Upgrades\Components\Animation\SecondaryNullAnim.js" />
+     <Compile Include="Assets\Plugins\DB Upgrades_Store\Upgrades\Components\Animation\SecondaryReloadAnim.js" />
+     <Compile Include="Assets\Plugins\DB Upgrades_Store\Upgrades\Components\Animation\SecondaryReloadEmptyAnim.js" />
+     <Compile Include="Assets\Plugins\DB Upgrades_Store\Upgrades\Components\Animation\WalkAnim.js" />
+     <Compile Include="Assets\Plugins\DB Upgrades_Store\Upgrades\Components\Boolean\AutoFire.js" />
+     <Compile Include="Assets\Plugins\DB Upgrades_Store\Upgrades\Components\Boolean\BurstFire.js" />
+     <Compile Include="Assets\Plugins\DB Upgrades_Store\Upgrades\Components\Boolean\InfiniteAmmo.js" />
+     <Compile Include="Assets\Plugins\DB Upgrades_Store\Upgrades\Components\Boolean\ProgressiveReload.js" />
+     <Compile Include="Assets\Plugins\DB Upgrades_Store\Upgrades\Components\Boolean\Scoped.js" />
+     <Compile Include="Assets\Plugins\DB Upgrades_Store\Upgrades\Components\Float(Multiplier)\AimSpread.js" />
+     <Compile Include="Assets\Plugins\DB Upgrades_Store\Upgrades\Components\Float(Multiplier)\AimSpreadRate.js" />
+     <Compile Include="Assets\Plugins\DB Upgrades_Store\Upgrades\Components\Float(Multiplier)\BurstTime.js" />
+     <Compile Include="Assets\Plugins\DB Upgrades_Store\Upgrades\Components\Float(Multiplier)\Damage.js" />
+     <Compile Include="Assets\Plugins\DB Upgrades_Store\Upgrades\Components\Float(Multiplier)\FireRate.js" />
+     <Compile Include="Assets\Plugins\DB Upgrades_Store\Upgrades\Components\Float(Multiplier)\Force.js" />
+     <Compile Include="Assets\Plugins\DB Upgrades_Store\Upgrades\Components\Float(Multiplier)\KickbackAngle.js" />
+     <Compile Include="Assets\Plugins\DB Upgrades_Store\Upgrades\Components\Float(Multiplier)\KickbackZ.js" />
+     <Compile Include="Assets\Plugins\DB Upgrades_Store\Upgrades\Components\Float(Multiplier)\MaxKickback.js" />
+     <Compile Include="Assets\Plugins\DB Upgrades_Store\Upgrades\Components\Float(Multiplier)\MaxKickbackZ.js" />
+     <Compile Include="Assets\Plugins\DB Upgrades_Store\Upgrades\Components\Float(Multiplier)\Pitch.js" />
+     <Compile Include="Assets\Plugins\DB Upgrades_Store\Upgrades\Components\Float(Multiplier)\ReloadInTime.js" />
+     <Compile Include="Assets\Plugins\DB Upgrades_Store\Upgrades\Components\Float(Multiplier)\ReloadOutTime.js" />
+     <Compile Include="Assets\Plugins\DB Upgrades_Store\Upgrades\Components\Float(Multiplier)\ReloadTime.js" />
+     <Compile Include="Assets\Plugins\DB Upgrades_Store\Upgrades\Components\Float(Multiplier)\SpreadDecreaseRate.js" />
+     <Compile Include="Assets\Plugins\DB Upgrades_Store\Upgrades\Components\Float(Multiplier)\StandardSpread.js" />
+     <Compile Include="Assets\Plugins\DB Upgrades_Store\Upgrades\Components\Float(Multiplier)\StandardSpreadRate.js" />
+     <Compile Include="Assets\Plugins\DB Upgrades_Store\Upgrades\Components\Float(Multiplier)\Volume.js" />
+     <Compile Include="Assets\Plugins\DB Upgrades_Store\Upgrades\Components\Float(Multiplier)\Zoom.js" />
+     <Compile Include="Assets\Plugins\DB Upgrades_Store\Upgrades\Components\GlobalUpgrade.js" />
+     <Compile Include="Assets\Plugins\DB Upgrades_Store\Upgrades\Components\Integer\AmmoPerClip.js" />
+     <Compile Include="Assets\Plugins\DB Upgrades_Store\Upgrades\Components\Integer\AmmoSet.js" />
+     <Compile Include="Assets\Plugins\DB Upgrades_Store\Upgrades\Components\Integer\BurstCount.js" />
+     <Compile Include="Assets\Plugins\DB Upgrades_Store\Upgrades\Components\Integer\MaxClips.js" />
+     <Compile Include="Assets\Plugins\DB Upgrades_Store\Upgrades\Components\Integer\PenetrateVal.js" />
+     <Compile Include="Assets\Plugins\DB Upgrades_Store\Upgrades\Components\Integer\ShotCount.js" />
+     <Compile Include="Assets\Plugins\DB Upgrades_Store\Upgrades\Components\Other\GraphicsObject.js" />
+     <Compile Include="Assets\Plugins\DB Upgrades_Store\Upgrades\Components\Other\MaterialChange.js" />
+     <Compile Include="Assets\Plugins\DB Upgrades_Store\Upgrades\Components\Other\Projectile.js" />
+     <Compile Include="Assets\Plugins\DB Upgrades_Store\Upgrades\Components\Other\SecondaryWeapon.js" />
+     <Compile Include="Assets\Plugins\DB Upgrades_Store\Upgrades\Components\Upgrade.js" />
+     <Compile Include="Assets\Plugins\DB Upgrades_Store\Upgrades\Components\Vector3\AimPosition.js" />
+     <Compile Include="Assets\Plugins\FPS Constructor V1\Demo Assets\Enemy\General Scripts\EnemyAttack.js" />
+     <Compile Include="Assets\Plugins\FPS Constructor V1\Demo Assets\Enemy\General Scripts\EnemyDrop.js" />
+     <Compile Include="Assets\Plugins\FPS Constructor V1\Demo Assets\Enemy\General Scripts\EnemyMovement.js" />
+     <Compile Include="Assets\Plugins\FPS Constructor V1\Demo Assets\Enemy\General Scripts\EnemyShoot.js" />
+     <Compile Include="Assets\Plugins\FPS Constructor V1\Demo Assets\Enemy\General Scripts\EnemyShootProjectile.js" />
+     <Compile Include="Assets\Plugins\FPS Constructor V1\Demo Assets\Pickups\Ammo\AmmoPickup.js" />
+     <Compile Include="Assets\Plugins\FPS Constructor V1\Demo Assets\Pickups\Health\HealthPickup.js" />
+     <Compile Include="Assets\Plugins\FPS Constructor V1\Demo Assets\Pickups\Money\MoneyPickup.js" />
+     <Compile Include="Assets\Plugins\FPS Constructor V1\Demo Assets\Pickups\Upgrade\UpgradePickup.js" />
+     <Compile Include="Assets\Plugins\FPS Constructor V1\Demo Assets\Scripts\CubeSet.js" />
+     <Compile Include="Assets\Plugins\FPS Constructor V1\Demo Assets\Scripts\FadeLight.js" />
+     <Compile Include="Assets\Plugins\FPS Constructor V1\Demo Assets\Scripts\Spawner.js" />
+     <Compile Include="Assets\Plugins\FPS Constructor V1\Demo Assets\Scripts\Wave.js" />
+     <Compile Include="Assets\Plugins\FPS Constructor V1\Demo Assets\Scripts\Waypoint.js" />
+     <Compile Include="Assets\Plugins\FPS Constructor V1\Demo Assets\Target\target.js" />
+     <Compile Include="Assets\Plugins\FPS Constructor V1\Demo Assets\Weapons\Orbital Laser\ConstantShake.js" />
+     <Compile Include="Assets\Plugins\FPS Constructor V1\Demo Assets\Weapons\Orbital Laser\Laser\Laser.js" />
+     <Compile Include="Assets\Plugins\FPS Constructor V1\Demo Assets\Weapons\Orbital Laser\Laser\OrbitalDesignator.js" />
+     <Compile Include="Assets\Plugins\FPS Constructor V1\Demo Assets\Weapons\Plasma Beam\LaserWeapon.js" />
+     <Compile Include="Assets\Plugins\FPS Constructor V1\Demo Assets\Weapons\PlasmaCannon\ChargeTest.js" />
+     <Compile Include="Assets\Plugins\FPS Constructor V1\Demo Assets\Weapons\Reused Animations\EjectedShell.js" />
+     <Compile Include="Assets\Plugins\FPS Constructor V1\Demo Assets\Weapons\Seeker Launcher\LockOnMissile.js" />
+     <Compile Include="Assets\Plugins\FPS Constructor V1\ScriptsDB\CommonlyUsed\BulletPenetration.js" />
+     <Compile Include="Assets\Plugins\FPS Constructor V1\ScriptsDB\CommonlyUsed\CrosshairColor.js" />
+     <Compile Include="Assets\Plugins\FPS Constructor V1\ScriptsDB\CommonlyUsed\EnemyDamageReceiver.js" />
+     <Compile Include="Assets\Plugins\FPS Constructor V1\ScriptsDB\CommonlyUsed\Fire.js" />
+     <Compile Include="Assets\Plugins\FPS Constructor V1\ScriptsDB\CommonlyUsed\FireSelector.js" />
+     <Compile Include="Assets\Plugins\FPS Constructor V1\ScriptsDB\CommonlyUsed\HitBox.js" />
+     <Compile Include="Assets\Plugins\FPS Constructor V1\ScriptsDB\CommonlyUsed\Ladder.js" />
+     <Compile Include="Assets\Plugins\FPS Constructor V1\ScriptsDB\CommonlyUsed\Managers\AmmoManager.js" />
+     <Compile Include="Assets\Plugins\FPS Constructor V1\ScriptsDB\CommonlyUsed\Managers\EffectsAndPenetrationWizard.js" />
+     <Compile Include="Assets\Plugins\FPS Constructor V1\ScriptsDB\CommonlyUsed\Managers\EffectsManager.js" />
+     <Compile Include="Assets\Plugins\FPS Constructor V1\ScriptsDB\CommonlyUsed\SprayScript.js" />
+     <Compile Include="Assets\Plugins\FPS Constructor V1\ScriptsDB\CommonlyUsed\UseEffects.js" />
+     <Compile Include="Assets\Plugins\FPS Constructor V1\ScriptsDB\Core\Avoidance.js" />
+     <Compile Include="Assets\Plugins\FPS Constructor V1\ScriptsDB\Core\CamSway.js" />
+     <Compile Include="Assets\Plugins\FPS Constructor V1\ScriptsDB\Core\CameraShake.js" />
+     <Compile Include="Assets\Plugins\FPS Constructor V1\ScriptsDB\Core\CharacterMotorDB.js" />
+     <Compile Include="Assets\Plugins\FPS Constructor V1\ScriptsDB\Core\EffectSet.js" />
+     <Compile Include="Assets\Plugins\FPS Constructor V1\ScriptsDB\Core\FPSInputControllerDB.js" />
+     <Compile Include="Assets\Plugins\FPS Constructor V1\ScriptsDB\Core\FPSWalkerDB.js" />
+     <Compile Include="Assets\Plugins\FPS Constructor V1\ScriptsDB\Core\FootStep.js" />
+     <Compile Include="Assets\Plugins\FPS Constructor V1\ScriptsDB\Core\HitDirectional.js" />
+     <Compile Include="Assets\Plugins\FPS Constructor V1\ScriptsDB\Core\LockCursor.js" />
+     <Compile Include="Assets\Plugins\FPS Constructor V1\ScriptsDB\Core\MovementValues.js" />
+     <Compile Include="Assets\Plugins\FPS Constructor V1\ScriptsDB\Core\PlayerHealth.js" />
+     <Compile Include="Assets\Plugins\FPS Constructor V1\ScriptsDB\Core\PlayerSprint.js" />
+     <Compile Include="Assets\Plugins\FPS Constructor V1\ScriptsDB\Core\TimedObjectDestructorDB.js" />
+     <Compile Include="Assets\Plugins\FPS Constructor V1\ScriptsDB\Editable\AmmoDisplay.js" />
+     <Compile Include="Assets\Plugins\FPS Constructor V1\ScriptsDB\Editable\DeathEffects.js" />
+     <Compile Include="Assets\Plugins\FPS Constructor V1\ScriptsDB\Editable\HealthDisplay.js" />
+     <Compile Include="Assets\Plugins\FPS Constructor V1\ScriptsDB\Editable\HighlightFX.js" />
+     <Compile Include="Assets\Plugins\FPS Constructor V1\ScriptsDB\Editable\HighlightWeapon.js" />
+     <Compile Include="Assets\Plugins\FPS Constructor V1\ScriptsDB\Editable\SprintDisplay.js" />
+     <Compile Include="Assets\Plugins\FPS Constructor V1\ScriptsDB\Editable\SprintDisplayPlayer.js" />
+     <Compile Include="Assets\Plugins\FPS Constructor V1\ScriptsDB\Editable\WeaponDisplay.js" />
+     <Compile Include="Assets\Plugins\FPS Constructor V1\ScriptsDB\Input\Axis.js" />
+     <Compile Include="Assets\Plugins\FPS Constructor V1\ScriptsDB\Input\Drag.js" />
+     <Compile Include="Assets\Plugins\FPS Constructor V1\ScriptsDB\Input\InputDB.js" />
+     <Compile Include="Assets\Plugins\FPS Constructor V1\ScriptsDB\Input\InputItem.js" />
+     <Compile Include="Assets\Plugins\FPS Constructor V1\ScriptsDB\Input\JoystickDB.js" />
+     <Compile Include="Assets\Plugins\FPS Constructor V1\ScriptsDB\Input\Key.js" />
+     <Compile Include="Assets\Plugins\FPS Constructor V1\ScriptsDB\Input\MouseButton.js" />
+     <Compile Include="Assets\Plugins\FPS Constructor V1\ScriptsDB\Input\SelectNumKeys.js" />
+     <Compile Include="Assets\Plugins\FPS Constructor V1\ScriptsDB\Input\SelectTouch.js" />
+     <Compile Include="Assets\Plugins\FPS Constructor V1\ScriptsDB\Input\TapToInteract.js" />
+     <Compile Include="Assets\Plugins\FPS Constructor V1\ScriptsDB\Input\Tilt.js" />
+     <Compile Include="Assets\Plugins\FPS Constructor V1\ScriptsDB\Input\TouchButton.js" />
+     <Compile Include="Assets\Plugins\FPS Constructor V1\ScriptsDB\Input\WeaponSelector.js" />
+     <Compile Include="Assets\Plugins\FPS Constructor V1\ScriptsDB\ProjectileScripts\DontGoThroughThings.js" />
+     <Compile Include="Assets\Plugins\FPS Constructor V1\ScriptsDB\ProjectileScripts\Explosion-Other.js" />
+     <Compile Include="Assets\Plugins\FPS Constructor V1\ScriptsDB\ProjectileScripts\Grenade.js" />
+     <Compile Include="Assets\Plugins\FPS Constructor V1\ScriptsDB\ProjectileScripts\GrenadeCharged.js" />
+     <Compile Include="Assets\Plugins\FPS Constructor V1\ScriptsDB\ProjectileScripts\Missile.js" />
+     <Compile Include="Assets\Plugins\FPS Constructor V1\ScriptsDB\ProjectileScripts\explosion-player.js" />
+     <Compile Include="Assets\Plugins\FPS Constructor V1\ScriptsDB\WeaponScripts\AimMode.js" />
+     <Compile Include="Assets\Plugins\FPS Constructor V1\ScriptsDB\WeaponScripts\DrawRay.js" />
+     <Compile Include="Assets\Plugins\FPS Constructor V1\ScriptsDB\WeaponScripts\FadeLightInstant.js" />
+     <Compile Include="Assets\Plugins\FPS Constructor V1\ScriptsDB\WeaponScripts\GunChildAnimation.js" />
+     <Compile Include="Assets\Plugins\FPS Constructor V1\ScriptsDB\WeaponScripts\GunLook.js" />
+     <Compile Include="Assets\Plugins\FPS Constructor V1\ScriptsDB\WeaponScripts\GunScript.js" />
+     <Compile Include="Assets\Plugins\FPS Constructor V1\ScriptsDB\WeaponScripts\JumpCrouchEffects.js" />
+     <Compile Include="Assets\Plugins\FPS Constructor V1\ScriptsDB\WeaponScripts\Lean.js" />
+     <Compile Include="Assets\Plugins\FPS Constructor V1\ScriptsDB\WeaponScripts\MouseLookDBJS.js" />
+     <Compile Include="Assets\Plugins\FPS Constructor V1\ScriptsDB\WeaponScripts\MuzzleFlash.js" />
+     <Compile Include="Assets\Plugins\FPS Constructor V1\ScriptsDB\WeaponScripts\PickupWeapon.js" />
+     <Compile Include="Assets\Plugins\FPS Constructor V1\ScriptsDB\WeaponScripts\PlayerWeapons.js" />
+     <Compile Include="Assets\Plugins\FPS Constructor V1\ScriptsDB\WeaponScripts\ReloadSounds.js" />
+     <Compile Include="Assets\Plugins\FPS Constructor V1\ScriptsDB\WeaponScripts\SelectableWeapon.js" />
+     <Compile Include="Assets\Plugins\FPS Constructor V1\ScriptsDB\WeaponScripts\SmartCrosshair.js" />
+     <Compile Include="Assets\Plugins\FPS Constructor V1\ScriptsDB\WeaponScripts\WeaponInfo.js" />
+     <Compile Include="Assets\Plugins\FPS Constructor V1\ScriptsDB\WeaponScripts\WeaponLocking.js" />
+     <Compile Include="Assets\Plugins\FPS Constructor V1\ScriptsDB\copyright.txt.js" />
+     <None Include="Assets\LeapMotion\Resources\LeapIRUndistorted.shader" />
+     <None Include="Assets\Plugins\donotdelete.txt" />
+     <None Include="Assets\LeapMotion\Materials\Sources\Shaders\Toony-Basic.shader" />
+     <None Include="Assets\LeapMotion\Resources\LeapIRDistorted.shader" />
+     <None Include="Assets\LeapMotion\Resources\LeapRGBDistorted.shader" />
+     <None Include="Assets\LeapMotion\README_BEFORE_UPDATING.txt" />
+     <None Include="Assets\Plugins\x86_64\donotdelete.txt" />
+     <None Include="Assets\LeapMotion\Resources\LeapIRUndistorted_foreground.shader" />
+     <None Include="Assets\LeapMotion\DemoResources\ScrollerText.txt" />
+     <None Include="Assets\LeapMotion\readme.txt" />
+     <None Include="Assets\OVR\Shaders\TextShader3D.shader" />
+     <None Include="Assets\LeapMotion\Shaders\RimShading.shader" />
+     <None Include="Assets\LeapMotion\Dependencies.txt" />
+     <None Include="Assets\LeapMotion\Materials\Sources\Shaders\Toony-BasicOutline.shader" />
+     <None Include="Assets\OVR\Shaders\Unlit Transparent HUD.shader" />
+     <None Include="Assets\LeapMotion\Materials\Sources\Shaders\Toony-LightedOutline.shader" />
+     <None Include="Assets\LeapMotion\Materials\Sources\Shaders\Toony-Lighted.shader" />
+     <None Include="Assets\LeapMotion\CoreAssetVersion.txt" />
+     <None Include="Assets\OVR\Shaders\OVRGUIShader.shader" />
+     <None Include="Assets\Plugins\x86\donotdelete.txt" />
+     <None Include="Assets\LeapMotion\Resources\LeapRGBUndistorted.shader" />
+     <None Include="Assets\JSON Tests\TroubleShoot.txt" />
+     <None Include="Assets\Plugins\SystemWipeRecognizerDll.bundle\Contents\MacOS\version.txt" />
+ <Reference Include="UnityEngine.UI">
+ <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
+ </Reference>
+ <Reference Include="SimpleJson">
+ <HintPath>C:/Users/Hamza/Documents/ORL/Assets/SimpleJson.dll</HintPath>
+ </Reference>
+ <Reference Include="SocketIO">
+ <HintPath>C:/Users/Hamza/Documents/ORL/Assets/SocketIO.dll</HintPath>
+ </Reference>
+ <Reference Include="websocket-sharp">
+ <HintPath>C:/Users/Hamza/Documents/ORL/Assets/websocket-sharp.dll</HintPath>
+ </Reference>
+ <Reference Include="ICSharpCode.SharpZipLib">
+ <HintPath>C:/Users/Hamza/Documents/ORL/Assets/Plugins/ICSharpCode.SharpZipLib.dll</HintPath>
+ </Reference>
+ <Reference Include="LeapCSharp.NET3.5">
+ <HintPath>C:/Users/Hamza/Documents/ORL/Assets/Plugins/LeapCSharp.NET3.5.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.iOS.Extensions.Xcode">
+ <HintPath>C:/Program Files/Unity/Editor/Data/PlaybackEngines/iossupport/UnityEditor.iOS.Extensions.Xcode.dll</HintPath>
+ </Reference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+	   Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  
+</Project>

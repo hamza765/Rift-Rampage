@@ -1,0 +1,511 @@
+fileFormatVersion: 2
+guid: 1933f47357db147a6bff4f7fae3d6ddc
+ModelImporter:
+  serializedVersion: 18
+  fileIDToRecycleName:
+    100000: Joint.9.1
+    100002: Joint.11
+    100004: Joint.17
+    100006: Arm
+    100008: Joint.13
+    100010: Mag
+    100012: //RootNode
+    100014: Box.2
+    100016: Joint.10.1
+    100018: Joint.5
+    100020: Ejector
+    100022: Joint.4.1
+    100024: Grip
+    100026: Joint.15.1
+    100028: Joint.3
+    100030: LeftArm.1
+    100032: Barrel.1
+    100034: Joint.5.1
+    100036: Joint.14
+    100038: Slide.split
+    100040: Cylinder.3.1
+    100042: Joint.13.1
+    100044: Joint.16.1
+    100046: Joint.7.1
+    100048: Left.1
+    100050: Joint.3.1
+    100052: Joint.11.1
+    100054: Laser Sight
+    100056: Scope
+    100058: Cylinder.3
+    100060: Box.1
+    100062: Joint.8.1
+    100064: Joint.14.1
+    100066: Joint.4
+    100068: Mag.1
+    100070: Arm.1
+    100072: Joint.6.1
+    100074: Joint.12.1
+    100076: Joint.15
+    100078: Box
+    100080: Hammer
+    100082: Group
+    100084: Cylinder.2
+    100086: Joint.1
+    100088: Screw
+    100090: Joint.7
+    100092: Slide
+    100094: Joint.8
+    100096: Joint.12
+    100098: Screw2.1.1
+    100100: Arm.2
+    100102: Joint.6
+    100104: Joint.9
+    100106: M1911
+    100108: Frame
+    100110: Screw2.1.4
+    100112: Joint
+    100114: Screw2.1
+    100116: Joint.1.1
+    100118: Cylinder.1
+    100120: Joint.16
+    100122: Joint.2
+    100124: Extended Mag
+    100126: Screw2.1.3
+    100128: TacRail
+    100130: Screw2.1.5
+    100132: Screw2.1.2
+    100134: Joint.10
+    100136: Cylinder
+    100138: Joint.2.1
+    100140: Silencer
+    100142: Safety
+    400000: Joint.9.1
+    400002: Joint.11
+    400004: Joint.17
+    400006: Arm
+    400008: Joint.13
+    400010: Mag
+    400012: //RootNode
+    400014: Box.2
+    400016: Joint.10.1
+    400018: Joint.5
+    400020: Ejector
+    400022: Joint.4.1
+    400024: Grip
+    400026: Joint.15.1
+    400028: Joint.3
+    400030: LeftArm.1
+    400032: Barrel.1
+    400034: Joint.5.1
+    400036: Joint.14
+    400038: Slide.split
+    400040: Cylinder.3.1
+    400042: Joint.13.1
+    400044: Joint.16.1
+    400046: Joint.7.1
+    400048: Left.1
+    400050: Joint.3.1
+    400052: Joint.11.1
+    400054: Laser Sight
+    400056: Scope
+    400058: Cylinder.3
+    400060: Box.1
+    400062: Joint.8.1
+    400064: Joint.14.1
+    400066: Joint.4
+    400068: Mag.1
+    400070: Arm.1
+    400072: Joint.6.1
+    400074: Joint.12.1
+    400076: Joint.15
+    400078: Box
+    400080: Hammer
+    400082: Group
+    400084: Cylinder.2
+    400086: Joint.1
+    400088: Screw
+    400090: Joint.7
+    400092: Slide
+    400094: Joint.8
+    400096: Joint.12
+    400098: Screw2.1.1
+    400100: Arm.2
+    400102: Joint.6
+    400104: Joint.9
+    400106: M1911
+    400108: Frame
+    400110: Screw2.1.4
+    400112: Joint
+    400114: Screw2.1
+    400116: Joint.1.1
+    400118: Cylinder.1
+    400120: Joint.16
+    400122: Joint.2
+    400124: Extended Mag
+    400126: Screw2.1.3
+    400128: TacRail
+    400130: Screw2.1.5
+    400132: Screw2.1.2
+    400134: Joint.10
+    400136: Cylinder
+    400138: Joint.2.1
+    400140: Silencer
+    400142: Safety
+    2300000: Box.2
+    2300002: Ejector
+    2300004: Grip
+    2300006: Barrel.1
+    2300008: Slide.split
+    2300010: Cylinder.3.1
+    2300012: Laser Sight
+    2300014: Scope
+    2300016: Cylinder.3
+    2300018: Mag.1
+    2300020: Hammer
+    2300022: Cylinder.2
+    2300024: Screw
+    2300026: Slide
+    2300028: Screw2.1.1
+    2300030: Frame
+    2300032: Screw2.1.4
+    2300034: Screw2.1
+    2300036: Cylinder.1
+    2300038: Extended Mag
+    2300040: Screw2.1.3
+    2300042: TacRail
+    2300044: Screw2.1.5
+    2300046: Screw2.1.2
+    2300048: Cylinder
+    2300050: Silencer
+    2300052: Safety
+    3300000: Box.2
+    3300002: Ejector
+    3300004: Grip
+    3300006: Barrel.1
+    3300008: Slide.split
+    3300010: Cylinder.3.1
+    3300012: Laser Sight
+    3300014: Scope
+    3300016: Cylinder.3
+    3300018: Mag.1
+    3300020: Hammer
+    3300022: Cylinder.2
+    3300024: Screw
+    3300026: Slide
+    3300028: Screw2.1.1
+    3300030: Frame
+    3300032: Screw2.1.4
+    3300034: Screw2.1
+    3300036: Cylinder.1
+    3300038: Extended Mag
+    3300040: Screw2.1.3
+    3300042: TacRail
+    3300044: Screw2.1.5
+    3300046: Screw2.1.2
+    3300048: Cylinder
+    3300050: Silencer
+    3300052: Safety
+    4300000: Box
+    4300002: Box.1
+    4300004: Slide
+    4300006: Cylinder
+    4300008: Cylinder.2
+    4300010: Cylinder.1
+    4300012: Slide.split
+    4300014: Frame
+    4300016: Ejector
+    4300018: Barrel.1
+    4300020: Grip
+    4300022: Screw
+    4300024: Screw2.1
+    4300026: Screw2.1.1
+    4300028: Screw2.1.2
+    4300030: Screw2.1.3
+    4300032: Screw2.1.4
+    4300034: Safety
+    4300036: Box.2
+    4300038: TacRail
+    4300040: Screw2.1.5
+    4300042: Scope
+    4300044: Laser Sight
+    4300046: Hammer
+    4300048: Mag.1
+    4300050: Cylinder.3
+    4300052: Extended Mag
+    4300054: Cylinder.3.1
+    4300056: Silencer
+    7400000: Take 0
+    7400002: Fire
+    7400004: Reload
+    7400006: idle
+    7400008: TakeOut
+    7400010: Walk
+    7400012: Null
+    7400014: Sprint
+    7400016: PutAway
+    7400018: Idle
+    11100000: //RootNode
+    13700000: Box.1
+    13700002: Box
+  materials:
+    importMaterials: 1
+    materialName: 3
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 3
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Fire
+      takeName: 
+      firstFrame: 0
+      lastFrame: 10
+      wrapMode: 8
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Reload
+      takeName: 
+      firstFrame: 10
+      lastFrame: 68
+      wrapMode: 8
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: TakeOut
+      takeName: 
+      firstFrame: 69
+      lastFrame: 97
+      wrapMode: 8
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Walk
+      takeName: 
+      firstFrame: 97
+      lastFrame: 117
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Null
+      takeName: 
+      firstFrame: 208
+      lastFrame: 209
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Sprint
+      takeName: 
+      firstFrame: 97
+      lastFrame: 117
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: PutAway
+      takeName: 
+      firstFrame: 119
+      lastFrame: 134
+      wrapMode: 8
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Idle
+      takeName: 
+      firstFrame: 140
+      lastFrame: 208
+      wrapMode: 8
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 0
+      maskSource: {instanceID: 0}
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: .00999999978
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 1
+  additionalBone: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

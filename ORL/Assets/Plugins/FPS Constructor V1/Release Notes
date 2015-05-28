@@ -1,0 +1,54 @@
+Version 1.1.3 - Submitted November 18, 2012
+
+----FEATURES----
+Improvements to Upgrade System
+-Weapon drops can hold upgrades & ammo
+-Global Upgrades (Perks), by weapon class
+-More Components
+-Scene objects for upgrades(Pickups)
+-GraphicsObject upgrade component more reliable
+-Upgrade component to play animations when activated/deactivated
+-Upgrades work on mobile
+
+Weapons & Upgrade Store Interface
+-Sample (but replaceable) interface for buying & equipping weapons and upgrade
+-Weapon slots can now be organized by weapon class
+-Picked up weapons now pick which slot to occupy intelligently
+
+More Easy Scripting Behaviors
+-Function call for Screen damage
+-Function call to drop current weapon
+-Function call for playing any animation
+-Function call for camera shake
+-Simple variable for camera jostle
+-Easy highlighting effect integration into interact system
+-Simple variable change to modify field of view
+-Example fire selector (switches between auto, semi-auto, burst)
+-Ability to change Player/IgnorePlayer layers
+
+General Improvements
+-All prefabs scaled to 1 unit = 1 meter
+-Improved camera recoil
+-Improved weapon and camera motion
+-Object Avoidance
+-Improved audio playback for automatic weapons
+-All weapons deactivate on start (no more errors from leaving weapons activated)
+-Better directional damage effects
+-Ability to have crosshairs appear for certain weapons while aiming
+-Ability to sprint without a weapon equipped
+-Ability to cancel reloads (by switching weapon)
+-New editor interfaces
+-Better accuracy for fire ray casts and other camera-related effects
+-Fall Damage with support for specific sounds (no sounds included)
+-Ladders
+-Tap support for pickups in mobile versions
+
+----IMPORTANT BUG FIXES----
+-Fixed several issues with accuracy application
+-Idle animations can play consecutively
+-Player can no longer switch weapons while putting away a weapon
+-Lean no longer applies/unapplies upgrades (removed test controls)
+-Tactical reloads can no longer lead to negative ammo
+-Lean script no longer collides with player
+-Aim rate less than 0 no longer causes errors
+-Weapon selection bugs fixed

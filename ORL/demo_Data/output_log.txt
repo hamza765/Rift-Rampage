@@ -1,0 +1,30 @@
+Initialize engine version: 5.0.1f1 (5a2e8fe35a68)
+GfxDevice: creating device client; threaded=1
+Direct3D:
+    Version:  Direct3D 9.0c [aticfx32.dll 8.17.10.1333]
+    Renderer: AMD Radeon HD 7800 Series
+    Vendor:   ATI
+    VRAM:     1003 MB (via DXGI)
+    Caps:     Shader=30 DepthRT=1 NativeDepth=1 NativeShadow=1 DF16=1 INTZ=1 NULL=1 RESZ=1 SlowINTZ=1
+Begin MonoManager ReloadAssembly
+Platform assembly: C:\Users\Hamza\Documents\ORL\demo_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading C:\Users\Hamza\Documents\ORL\demo_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: C:\Users\Hamza\Documents\ORL\demo_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading C:\Users\Hamza\Documents\ORL\demo_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: C:\Users\Hamza\Documents\ORL\demo_Data\Managed\UnityEngine.UI.dll (this message is harmless)
+Loading C:\Users\Hamza\Documents\ORL\demo_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
+Platform assembly: C:\Users\Hamza\Documents\ORL\demo_Data\Managed\LeapCSharp.NET3.5.dll (this message is harmless)
+Loading C:\Users\Hamza\Documents\ORL\demo_Data\Managed\LeapCSharp.NET3.5.dll into Unity Child Domain
+- Completed reload, in  0.053 seconds
+<RI> Initializing input.
+<RI> Input initialized.
+desktop: 1920x1080 60Hz; virtual: 1920x1080 at 0,0
+<RI> Initialized touch support.
+Platform assembly: C:\Users\Hamza\Documents\ORL\demo_Data\Managed\System.Core.dll (this message is harmless)
+Version check failed. Please make sure you are using Oculus runtime 0.5.0 or newer.
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+Platform assembly: C:\Users\Hamza\Documents\ORL\demo_Data\Managed\System.dll (this message is harmless)
+Setting up 1 worker threads for Enlighten.
+  Thread -> id: ee4 -> priority: 1 
